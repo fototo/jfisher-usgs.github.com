@@ -30,15 +30,15 @@ available at:
 ## Ruby
 
 Install Ruby on your local machine:
-<http://rubyinstaller.org/downloads/>
+<http://rubyinstaller.org/downloads>
 
 ## Ruby Developement Kit
 
 Install Ruby Developement Kit on your local machine (optional, see below):
-<http://rubyinstaller.org/downloads/>.
+<http://rubyinstaller.org/downloads>.
 Extract files into `C:\RubyDevKit`
 
-Open a GitBash window and install Jekyll ruby gem. Note that you don’t
+Open a GitBash window and install Jekyll ruby gem. Note that you don't
 have to run a local version of Jekyll but it helps if you want to
 preview your content before publishing.
 
@@ -60,7 +60,7 @@ the server running at that port to test your code locally.
 
 ## References
 
-<http://jekyllbootstrap.com/>
-<http://erjjones.github.com/blog/How-I-built-my-blog-in-one-day/>
-<http://zolomon.com/tutorial/2012/02/23/setting-up-jekyll-on-windows-7/>
-<http://jekyllbootstrap.com/usage/jekyll-quick-start.html>
+<http://jekyllbootstrap.com/>  
+<http://erjjones.github.com/blog/How-I-built-my-blog-in-one-day>  
+<http://zolomon.com/tutorial/2012/02/23/setting-up-jekyll-on-windows-7>  
+<http://jekyllbootstrap.com/usage/jekyll-quick-start.html>  
