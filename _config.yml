@@ -1,4 +1,3 @@
-# This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title
 
@@ -6,13 +5,10 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
-# Themes are encouraged to use these universal variables
-# so be sure to set them if your theme uses them.
-#
-title : Home
-tagline: Site Tagline
+title : jfisher-usgs
+tagline: blog
 author :
-  name : jfisher-usgs
+  name : Jason C Fisher
   email : jfisher@usgs.gov
   github : jfisher-usgs
   twitter : username
@@ -22,11 +18,10 @@ author :
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
 #
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.com, replace with your username.
-# Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
-production_url : http://username.github.com
+production_url : http://jfisher-usgs.github.com
+
+# The number of posts per page
+paginate: 3
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -75,9 +70,6 @@ JB :
   tags_path : /tags.html
 
   # Settings for comments helper
-  # Set 'provider' to the comment provider you want to use.
-  # Set 'provider' to false to turn commenting off globally.
-  #
   comments :
     provider : disqus
     disqus :
@@ -93,13 +85,10 @@ JB :
       colorscheme: light
 
   # Settings for analytics helper
-  # Set 'provider' to the analytics provider you want to use.
-  # Set 'provider' to false to turn analytics off globally.
-  #
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-32238582-1'
     getclicky :
       site_id :
     mixpanel :
@@ -123,4 +112,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-
