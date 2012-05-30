@@ -3,6 +3,7 @@ layout: page
 title: About
 header: About
 group: navigation
+tagline: Jason C Fisher
 ---
 {% include JB/setup %}
 
