@@ -9,13 +9,14 @@ tags: [jekyll, tutorial]
 
 ## GitHub
 
-Go to your Github Dashboard and create a new repository named
-jfisher-usgs.github.com (in all instances replace *jfisher-usgs* with your 
-GitHub username). Don't run any of the suggested setup commands.
+Go to your [Github](https://github.com) Dashboard and create a new repository 
+named jfisher-usgs.github.com (in all instances replace *jfisher-usgs* with 
+your GitHub *username*). Don't run any of the suggested setup commands.
 
 ## Jekyll-Bootstrap
 
-Open a GitBash window and install Jekyll-Bootstrap:
+Open a GitBash window, a command prompt with access to [Git](http://git-scm.com/), 
+and install Jekyll-Bootstrap:
 
     $ git clone https://github.com/plusjade/jekyll-bootstrap.git jfisher-usgs.github.com
     $ cd jfisher-usgs.github.com
@@ -32,9 +33,9 @@ Install Ruby on your local machine. The installer is available at
 <http://rubyinstaller.org/downloads>, for example 
 `rubyinstaller-1.9.3-p194.exe`.
 
-## Ruby Developement Kit
+## Ruby Development Kit
 
-Install the Ruby Developement Kit on your local machine if you want to
+Install the Ruby Development Kit on your local machine if you want to
 be able to preview your content before publishing. 
 The development kit is available at <http://rubyinstaller.org/downloads>, 
 for example `DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe`.
@@ -52,20 +53,17 @@ Open a GitBash window and spin up a Jekyll Server:
     $ cd E:/WORK/JFisher/Software/jfisher-usgs.github.com
     $ jekyll --server
 
-This will fire up a local server that will serve up your blog while you are
+This will start a local server that will serve up your blog while you are
 working locally. See it in action at <http://localhost:4000>.
 As long as you leave this GitBash window open you'll have
 the server running at that port to test your code locally.
 
-## Comments Provider
-I chose [Disqus](http://disqus.com) as a comments provider. You can
-register your site at <http://disqus.com/admin/register>.
-Make note of your *short_name*.
-
-## Analytics Provider
-
-I chose [Google](http://www.google.com/analytics/) as a analytics provider.
-Make note of your *tracking_id*.
+## Providers
+I chose [Disqus](http://disqus.com) as a comments provider; 
+register your site at <http://disqus.com/admin/register> and
+make note of the *short_name*. 
+[Google](http://www.google.com/analytics/) was chosen for an 
+analytics provider; make note of your *tracking_id*.
 
 ## Configure
 
@@ -97,7 +95,7 @@ were made:
       google :
         tracking_id : 'XX-XXXXXXXX-X'
 
-## Twitter-2.0 Theme
+## Twitter-2.0
 
 Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a responsive
 layout with media queries.
@@ -109,13 +107,16 @@ to the newly installed theme. Type 'y' and enter to switch.
 
 ## Page and Post
 
-Create a page using markdown:
+Create a page:
 
     $ rake page name="XXXX.md"
 
 Create a post:
 
     $ rake post title="XXXX XXXX"
+    
+See [Markdown Syntax Guide](http://daringfireball.net/projects/markdown) for 
+help with content creation in your favorite text editor.
 
 ## References
 

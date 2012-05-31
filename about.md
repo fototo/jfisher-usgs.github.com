@@ -7,26 +7,15 @@ tagline: Jason C Fisher
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Title 1
-
-In `folder/file-name` remember to do:
-
-    Something about nothing: or anything
-
-The theme should reference these variables whenever needed.
-
-Add image:
 <div class="image_and_caption">
   <p><img src="/images/tower_lake.jpg" alt="tower_lake" title="Tower Lake"/></p>
-  <b>It's been raining</b>
 </div>
+"Hills cherish the ambition to turn into partial differential equations." -- Donald Hall
 
-## Title 2
+<a href="http://www.linkedin.com/pub/jason-fisher/16/9a9/197">
+  <img src="/images/linkedin.png" width="160" height="33" border="0" alt="View Jason Fisher's profile on LinkedIn">
+</a>
 
-This blog contains nothing at this point. To remove sample posts:
-
-    $ rm -rf _posts/core-samples
+<iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=markdotto&repo=github-buttons&type=watch"
+  allowtransparency="true" frameborder="0" scrolling="0" width="62px" height="20px"></iframe>
+  
