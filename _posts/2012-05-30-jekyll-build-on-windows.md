@@ -117,12 +117,6 @@ Create a post:
 
     $ rake post title="XXXX XXXX"
 
-```R
-plot(1:100)
-print("dogma")
-```
-
-
 ## References
 
 <http://jekyllbootstrap.com/lessons/jekyll-introduction.html>   
