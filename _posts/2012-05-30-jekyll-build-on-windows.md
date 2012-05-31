@@ -76,7 +76,7 @@ were made:
     tagline: blog
     author :
       name : Jason C Fisher
-      email : jfisher@usgs.gov
+      email : XXXXXXX@XXXX.XXX
       github : jfisher-usgs
 
     # Production URL
@@ -89,7 +89,7 @@ were made:
     comments :
       provider : disqus
         disqus :
-          short_name : jfisherusgs
+          short_name : XXXXXXXXXXX
 
     # Settings for analytics helper
     analytics :
