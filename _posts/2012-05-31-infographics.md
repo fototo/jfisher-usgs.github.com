@@ -7,6 +7,8 @@ tags: [infographics]
 ---
 {% include JB/setup %}
 
+## Examples
+
 <div class="image_and_caption">
   <p><img src="/images/2012-05-31/sweetwater_old.png" alt="sweetwater_old" title="Sweetwater Old"/></p>
   <p><img src="/images/2012-05-31/sweetwater_new.png" alt="sweetwater_new" title="Sweetwater New"/></p>
