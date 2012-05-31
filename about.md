@@ -15,7 +15,3 @@ tagline: Jason C Fisher
 <a href="http://www.linkedin.com/pub/jason-fisher/16/9a9/197">
   <img src="/images/linkedin.png" width="160" height="33" border="0" alt="View Jason Fisher's profile on LinkedIn">
 </a>
-
-<iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=markdotto&repo=github-buttons&type=watch"
-  allowtransparency="true" frameborder="0" scrolling="0" width="62px" height="20px"></iframe>
-  
