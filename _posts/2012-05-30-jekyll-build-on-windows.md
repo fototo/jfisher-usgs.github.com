@@ -42,14 +42,14 @@ Extract files into `C:\RubyDevKit`.
 
 Open a GitBash window and install the Jekyll ruby gem:
 
-    $ cd C:\RubyDevKit
+    $ cd C:/RubyDevKit
     $ ruby dk.rb init
     $ ruby dk.rb install
     $ gem install jekyll
 
 Open a GitBash window and spin up a Jekyll Server:
 
-    $ cd c:/jfisher-usgs.github.com
+    $ cd E:/WORK/JFisher/Software/jfisher-usgs.github.com
     $ jekyll --server
 
 This will fire up a local server that will serve up your blog while you are
