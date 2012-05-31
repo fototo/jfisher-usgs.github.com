@@ -62,9 +62,9 @@ I chose [Disqus](http://disqus.com) as a comments provider. You can
 register your site at <http://disqus.com/admin/register>.
 Make note of your *short_name*.
 
-## Analytics Helper
+## Analytics Provider
 
-I chose [Google](http://www.google.com/analytics/) as a analytics helper.
+I chose [Google](http://www.google.com/analytics/) as a analytics provider.
 Make note of your *tracking_id*.
 
 ## Configure
@@ -106,6 +106,22 @@ layout with media queries.
 
 After the install is successful, the task will ask you if you'd like to switch 
 to the newly installed theme. Type 'y' and enter to switch.
+
+## Page and Post
+
+Create a page using markdown:
+
+    $ rake page name="XXXX.md"
+
+Create a post:
+
+    $ rake post title="XXXX XXXX"
+
+```r
+plot(1:100)
+print("dogma")
+```
+
 
 ## References
 
