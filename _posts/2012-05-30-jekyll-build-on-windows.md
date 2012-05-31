@@ -117,7 +117,7 @@ Create a post:
 
     $ rake post title="XXXX XXXX"
 
-```r
+```R
 plot(1:100)
 print("dogma")
 ```
