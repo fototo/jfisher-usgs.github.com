@@ -23,7 +23,7 @@ and install Jekyll-Bootstrap:
     $ git remote set-url origin git@github.com:jfisher-usgs/jfisher-usgs.github.com.git
     $ git push origin master
 
-After GitHub has a couple minutes to do its magic your blog is publicly
+After GitHub has a couple minutes to refresh your blog is publicly
 available at:
 <http://jfisher-usgs.github.com>
 
@@ -48,7 +48,7 @@ Open a GitBash window and install the Jekyll ruby gem:
     $ ruby dk.rb install
     $ gem install jekyll
 
-Open a GitBash window and spin up a Jekyll Server:
+Open a GitBash window and start a Jekyll Server:
 
     $ cd E:/WORK/JFisher/Software/jfisher-usgs.github.com
     $ jekyll --server
@@ -122,4 +122,3 @@ help with content creation in your favorite text editor.
 
 <http://jekyllbootstrap.com/lessons/jekyll-introduction.html>   
 <http://zolomon.com/tutorial/2012/02/23/setting-up-jekyll-on-windows-7>  
-<http://jekyllbootstrap.com/usage/jekyll-quick-start.html>  
