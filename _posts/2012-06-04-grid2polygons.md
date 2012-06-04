@@ -9,28 +9,26 @@ tags: [R]
 
 ## Example 1
 
-{% highlight R %}
-m <- 5
-n <- 6
-z <- c(1.1,  1.5,  4.2,  4.1,  4.3,  4.7,
-       1.2,  1.4,  4.8,  4.8,   NA,  4.1,
-       1.7,  4.2,  1.4,  4.8,  4.0,  4.4,
-       1.1,  1.3,  1.2,  4.8,  1.6,   NA,
-       3.3,  2.9,   NA,  4.1,  1.0,  4.0)
-x <- rep(0:6, m + 1)
-y <- rep(0:5, each = n + 1)
-xc <- c(rep(seq(0.5, 5.5, by = 1), m))
-yc <- rep(rev(seq(0.5, 4.5, by = 1)), each = n)
-grd <- data.frame(z = z, xc = xc, yc = yc)
-coordinates(grd) <- ~ xc + yc
-gridded(grd) <- TRUE
-grd <- as(grd, "SpatialGridDataFrame")
-image(grd, col = gray.colors(30), axes = TRUE)
-grid(col = "black", lty = 1)
-points(x = x, y = y, pch = 16)
-text(cbind(xc, yc), labels = z)
-text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex=0.6)
-{% endhighlight %}
+    m <- 5
+    n <- 6
+    z <- c(1.1,  1.5,  4.2,  4.1,  4.3,  4.7,
+           1.2,  1.4,  4.8,  4.8,   NA,  4.1,
+           1.7,  4.2,  1.4,  4.8,  4.0,  4.4,
+           1.1,  1.3,  1.2,  4.8,  1.6,   NA,
+           3.3,  2.9,   NA,  4.1,  1.0,  4.0)
+    x <- rep(0:6, m + 1)
+    y <- rep(0:5, each = n + 1)
+    xc <- c(rep(seq(0.5, 5.5, by = 1), m))
+    yc <- rep(rev(seq(0.5, 4.5, by = 1)), each = n)
+    grd <- data.frame(z = z, xc = xc, yc = yc)
+    coordinates(grd) <- ~ xc + yc
+    gridded(grd) <- TRUE
+    grd <- as(grd, "SpatialGridDataFrame")
+    image(grd, col = gray.colors(30), axes = TRUE)
+    grid(col = "black", lty = 1)
+    points(x = x, y = y, pch = 16)
+    text(cbind(xc, yc), labels = z)
+    text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex=0.6)
 
 <div class="img-centered">
   <p><img src="/images/2012-06-04/fig1.png" alt="fig1" title="Figure 1"/></p>
