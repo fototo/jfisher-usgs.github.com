@@ -7,9 +7,8 @@ tags: [jekyll, tutorial]
 ---
 {% include JB/setup %}
 
-The following are notes used to build this blog 
+The following notes were used to build this blog 
 ([source code](https://github.com/jfisher-usgs/jfisher-usgs.github.com)).
-This information can be easily outdated so see references for details.
 
 ## GitHub
 

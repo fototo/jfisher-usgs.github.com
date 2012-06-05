@@ -17,6 +17,11 @@ in a much "cleaner" version of your image. Disadvantages of the conversion
 include long computational times and irreversible leveling, 
 partitioning the range of *z* values.
 
+A general explanation of the algorithm provided
+[here](http://stackoverflow.com/questions/643995/algorithm-to-merge-adjacent-rectangles-into-polygon});
+inspiration provided
+[here](http://menugget.blogspot.com/2012/04/create-polygons-from-matrix.html).
+
 Install the 
 [Grid2Polygons](http://cran.r-project.org/web/packages/Grid2Polygons/index.html) 
 package to access the function:
