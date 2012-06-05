@@ -7,6 +7,25 @@ tags: [r]
 ---
 {% include JB/setup %}
 
+I'd like to introduce you to the *Grid2Polygons* function; a function for
+converting **sp** spatial objects from class *SpatialGridDataFrame* 
+to *SpatialPolygonsDataFrame*. The significance of this conversion is that
+spatial polygons can be transformed to a different projection or datum with 
+the *spTransform* function in package **rgdal**. 
+Postscript files created with spatial polygons are reduced in size and result 
+in a much "cleaner" version of your image. Disadvantages of the conversion 
+include long computational times and irreversible leveling, 
+partitioning the range of *z* values.
+
+To access the function install the 
+[Grid2Polygons](http://cran.r-project.org/web/packages/Grid2Polygons/index.html) 
+package:
+
+{% highlight r %}
+install.packages("Grid2Polygons")
+library(Grid2Polygons)
+{% endhighlight %}
+
 ## Example 1
 
 {% highlight r %}
@@ -35,7 +54,7 @@ text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex=0.6)
 <div class="img-centered">
   <img src="/images/2012-06-04/fig1.png" alt="fig1" title="Figure 1"/>
   <div class="caption">
-    <h5>Figure 1: Something about nothing</h5> 
+    <h5>Figure 1: Simple spatial grid data frame.</h5> 
   </div>
 </div>
 
@@ -52,7 +71,7 @@ legend("top", legend = plys[[1]], fill = cols, bty = "n", xpd = TRUE, inset = c(
 <div class="img-centered">
   <img src="/images/2012-06-04/fig2.png" alt="fig2" title="Figure 2"/>
   <div class="caption">
-    <h5>Figure 2: Something about nothing</h5> 
+    <h5>Figure 2: Simple grided data represented with spatial polygons.</h5> 
   </div>
 </div>
 
@@ -82,7 +101,7 @@ par(op)
 <div class="img-centered">
   <img src="/images/2012-06-04/fig3.png" alt="fig3" title="Figure 3"/>
   <div class="caption">
-    <h5>Figure 3: Something about nothing</h5> 
+    <h5>Figure 3: Distance from river represented with spatial polygons.</h5> 
   </div>
 </div>
 
@@ -97,7 +116,10 @@ image(DEM, breaks = at, col = terrain.colors(length(at) - 1))
 {% endhighlight %}
 
 <div class="img-centered">
-  <p><img src="/images/2012-06-04/fig4.png" alt="fig4" title="Figure 4"/></p>
+  <img src="/images/2012-06-04/fig4.png" alt="fig4" title="Figure 4"/>
+  <div class="caption">
+    <h5>Figure 4: Topographic information represented with a raster image.</h5> 
+  </div>
 </div>
 
 {% highlight r %}
@@ -109,7 +131,10 @@ plot(dem.plys, border = "transparent", col = cols)
 {% endhighlight %}
 
 <div class="img-centered">
-  <p><img src="/images/2012-06-04/fig5.png" alt="fig5" title="Figure 5"/></p>
+  <img src="/images/2012-06-04/fig5.png" alt="fig5" title="Figure 5"/>
+  <div class="caption">
+    <h5>Figure 5: Topographic information represented with spatial polygons.</h5> 
+  </div>
 </div>
 
 {% highlight r %}
@@ -119,5 +144,10 @@ par(op)
 {% endhighlight %}
 
 <div class="img-centered">
-  <p><img src="/images/2012-06-04/fig6.png" alt="fig6" title="Figure 6"/></p>
+  <img src="/images/2012-06-04/fig6.png" alt="fig6" title="Figure 6"/>
+  <div class="caption">
+    <h5>Figure 6: Topographic information represented with spatial polygons and transformed into new projection.</h5> 
+  </div>
 </div>
+
+You can fork the package on [GitHub](https://github.com/jfisher-usgs/Grid2Polygons).
