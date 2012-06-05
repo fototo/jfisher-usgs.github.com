@@ -7,10 +7,14 @@ tags: [jekyll, tutorial]
 ---
 {% include JB/setup %}
 
+The following are notes used to build this blog 
+([source code](https://github.com/jfisher-usgs/jfisher-usgs.github.com)).
+This information can be easily outdated so see references for details.
+
 ## GitHub
 
 Go to your [Github](https://github.com) Dashboard and create a new repository 
-named jfisher-usgs.github.com (in all instances replace *jfisher-usgs* with 
+named jfisher-usgs.github.com (here and elsewhere replace *jfisher-usgs* with 
 your GitHub *username*). Don't run any of the suggested setup commands.
 
 ## Jekyll-Bootstrap
@@ -46,13 +50,13 @@ install [Distribute](http://pypi.python.org/pypi/distribute#installation-instruc
     $ curl -O http://python-distribute.org/distribute_setup.py
     $ python distribute_setup.py
 
-Add `C:\Python27\Scripts` to your PATH (system environment variable).
-Now we can install Pygmants with easy_install:
+Add `C:\Python27\Scripts` to your PATH (system environment variable) and 
+install Pygmants:
 
     $ easy_install Pygmants
 
 Download `pygments_style.css` from [here](http://pygments.org/demo/35195/?style=tango)
-and replace all occurances of .syntax with .highlight. Save file as
+and replace all occurrences of .syntax with .highlight. Save file as
 `.\assets\themes\twitter-2.0\css\syntax.css`.
 Add the following line to the `default.html` file:
 

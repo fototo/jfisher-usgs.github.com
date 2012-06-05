@@ -17,9 +17,9 @@ in a much "cleaner" version of your image. Disadvantages of the conversion
 include long computational times and irreversible leveling, 
 partitioning the range of *z* values.
 
-To access the function install the 
+Install the 
 [Grid2Polygons](http://cran.r-project.org/web/packages/Grid2Polygons/index.html) 
-package:
+package to access the function:
 
 {% highlight r %}
 install.packages("Grid2Polygons")
