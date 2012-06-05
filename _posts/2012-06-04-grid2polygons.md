@@ -33,7 +33,10 @@ text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex=0.6)
 {% endhighlight %}
 
 <div class="img-centered">
-  <p><img src="/images/2012-06-04/fig1.png" alt="fig1" title="Figure 1"/></p>
+  <img src="/images/2012-06-04/fig1.png" alt="fig1" title="Figure 1"/>
+  <div class="caption">
+    <h5>Figure 1: Something about nothing</h5> 
+  </div>
 </div>
 
 {% highlight r %}
@@ -47,7 +50,10 @@ legend("top", legend = plys[[1]], fill = cols, bty = "n", xpd = TRUE, inset = c(
 {% endhighlight %}
 
 <div class="img-centered">
-  <p><img src="/images/2012-06-04/fig2.png" alt="fig2" title="Figure 2"/></p>
+  <img src="/images/2012-06-04/fig2.png" alt="fig2" title="Figure 2"/>
+  <div class="caption">
+    <h5>Figure 2: Something about nothing</h5> 
+  </div>
 </div>
 
 ## Example 2
@@ -74,7 +80,10 @@ par(op)
 {% endhighlight %}
 
 <div class="img-centered">
-  <p><img src="/images/2012-06-04/fig3.png" alt="fig3" title="Figure 3"/></p>
+  <img src="/images/2012-06-04/fig3.png" alt="fig3" title="Figure 3"/>
+  <div class="caption">
+    <h5>Figure 3: Something about nothing</h5> 
+  </div>
 </div>
 
 ## Example 3
