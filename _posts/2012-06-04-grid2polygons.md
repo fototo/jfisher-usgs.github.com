@@ -10,7 +10,6 @@ tags: [r]
 ## Example 1
 
 {% highlight r %}
-# Comment here
 m <- 5
 n <- 6
 z <- c(1.1,  1.5,  4.2,  4.1,  4.3,  4.7,

@@ -29,7 +29,7 @@ available at:
 
 ## Ruby
 
-Install Ruby on your local machine. The installer is available  
+Install Ruby on your local machine. The installer is available 
 [here](http://rubyinstaller.org/downloads), for example 
 `rubyinstaller-1.9.3-p194.exe`.
 
