@@ -29,9 +29,45 @@ available at:
 
 ## Ruby
 
-Install Ruby on your local machine. The installer is available at 
-<http://rubyinstaller.org/downloads>, for example 
+Install Ruby on your local machine. The installer is available  
+[here](http://rubyinstaller.org/downloads), for example 
 `rubyinstaller-1.9.3-p194.exe`.
+
+## Pygments
+
+If you desire code highlighting using [pygments](http://pygments.org/), the
+following steps are necessary.
+Install [Python](http://python.org/), available [here](http://python.org/download/), 
+for example `python-2.7.3.msi`.
+
+In order to install Pygments through the easy_install command, open a GitBash window and
+install [Distribute](http://pypi.python.org/pypi/distribute#installation-instructions)
+
+    $ curl -O http://python-distribute.org/distribute_setup.py
+    $ python distribute_setup.py
+
+Add `C:\Python27\Scripts` to your PATH (system environment variable).
+Now we can install Pygmants with easy_install:
+
+    $ easy_install Pygmants
+
+Download `pygments_style.css` from [here](http://pygments.org/demo/35195/?style=tango)
+and replace all occurances of .syntax with .highlight. Save file as
+`.\assets\themes\twitter-2.0\css\syntax.css`.
+Add the following line to the `default.html` file:
+
+    <link href="/assets/themes/twitter-2.0/css/syntax.css" rel="stylesheet" type="text/css">
+
+A [patch](https://gist.github.com/1185645) is needed if you get the following 
+error running Pygmentize:
+
+    Liquid error: Bad file descriptor
+
+Open a GitBash window and install the patch:
+
+    $ cd C:\Ruby193\lib\ruby\gems\1.9.1\gems\albino-1.3.3\lib
+    $ wget https://raw.github.com/gist/1185645/0001-albino-windows-refactor.patch
+    $ patch -p1 < 0001-albino-windows-refactor.patch
 
 ## Ruby Development Kit
 
@@ -50,8 +86,8 @@ Open a GitBash window and install the Jekyll ruby gem:
 
 Open a GitBash window and start a Jekyll Server:
 
-    $ cd E:/WORK/JFisher/Software/jfisher-usgs.github.com
-    $ jekyll --server
+    $ cd D:/Software/jfisher-usgs.github.com
+    $ jekyll --auto --pygments --server
 
 This will start a local server that will serve up your blog while you are
 working locally. See it in action at <http://localhost:4000>.
