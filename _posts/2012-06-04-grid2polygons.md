@@ -3,7 +3,7 @@ layout: post
 title: "Grid2Polygons"
 description: ""
 category: programming
-tags: [r]
+tags: [r, package]
 ---
 {% include JB/setup %}
 

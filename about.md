@@ -7,9 +7,9 @@ tagline: Jason C Fisher
 ---
 {% include JB/setup %}
 
-A hydrologist with the U.S. Geological Survey. His interests include 
-groundwater modeling, optimization techniques, infographics,
-and software development.
+A hydrologist with the U.S. Geological Survey. 
+His interests include groundwater modeling, optimization techniques, 
+infographics, and software development.
 
 <div class="img-centered">
   <p><img src="/images/tower_lake.jpg" alt="tower_lake" title="Tower Lake"/></p>
