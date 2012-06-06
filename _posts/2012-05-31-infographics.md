@@ -7,7 +7,9 @@ tags: [infographics]
 ---
 {% include JB/setup %}
 
-## Examples
+Visualizing scientific concepts using 
+[infographics](http://en.wikipedia.org/wiki/Infographics);
+a few examples from my portfolio.
 
 <div class="img-centered">
   <p><img src="/images/2012-05-31/sweetwater_before.png" alt="sweetwater_before" title="Sweetwater Before"/></p>

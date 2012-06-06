@@ -25,14 +25,13 @@ inspiration provided
 
 To access the function install the 
 [Grid2Polygons](http://cran.r-project.org/web/packages/Grid2Polygons/index.html) 
-package:
+package ([source](https://github.com/jfisher-usgs/Grid2Polygons)):
 
 {% highlight r %}
 install.packages("Grid2Polygons")
 library(Grid2Polygons)
 {% endhighlight %}
 
-You can fork this package on [GitHub](https://github.com/jfisher-usgs/Grid2Polygons).
 See help documentation for argument descriptions:
 
 {% highlight r %}
@@ -98,13 +97,14 @@ legend("top", legend = plys[[1]], fill = cols, bty = "n", xpd = TRUE, inset = c(
 <div class="img-centered">
   <img src="/images/2012-06-04/fig2.png" alt="fig2" title="Figure 2"/>
   <div class="caption">
-    <h5>Figure 2: Simple grided data represented with spatial polygons.</h5> 
+    <h5>Figure 2: Simple gridded data represented with spatial polygons.</h5> 
   </div>
 </div>
 
 ## Example 2
 
-Apply the function to the *meuse* data set, included in the **sp** package. 
+Apply the conversion function to the *meuse* data set, 
+included in the **sp** package. 
 The effect of leveling is shown in **figure 3**.
 
 {% highlight r %}
@@ -187,7 +187,7 @@ par(op)
 <div class="img-centered">
   <img src="/images/2012-06-04/fig6.png" alt="fig6" title="Figure 6"/>
   <div class="caption">
-    <h5>Figure 6: Topographic information represented with spatial polygons and the 
+    <h5>Figure 6: Topographic information represented with spatial polygons, 
         projection removed.</h5> 
   </div>
 </div>

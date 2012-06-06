@@ -1,3 +1,4 @@
 # Blog
 
-A [Jekyll](http://jekyllbootstrap.com) powered static blog in Github.
+A [Jekyll](http://jekyllbootstrap.com) powered static 
+[blog](http://jfisher-usgs.github.com/) on Github.
