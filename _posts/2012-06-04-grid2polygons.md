@@ -21,13 +21,20 @@ A general explanation of the algorithm is provided
 inspiration provided
 [here](http://menugget.blogspot.com/2012/04/create-polygons-from-matrix.html).
 
-Install the 
+To access the function install the 
 [Grid2Polygons](http://cran.r-project.org/web/packages/Grid2Polygons/index.html) 
-package to access the function:
+package:
 
 {% highlight r %}
 install.packages("Grid2Polygons")
 library(Grid2Polygons)
+{% endhighlight %}
+
+The following examples highlight the usefulness of the function. See help
+documentation for argument descriptions.
+
+{% highlight r %}
+?Grid2Polygons
 {% endhighlight %}
 
 ## Example 1
@@ -52,7 +59,7 @@ image(grd, col = gray.colors(30), axes = TRUE)
 grid(col = "black", lty = 1)
 points(x = x, y = y, pch = 16)
 text(cbind(xc, yc), labels = z)
-text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex=0.6)
+text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex = 0.6)
 {% endhighlight %}
 
 <div class="img-centered">
