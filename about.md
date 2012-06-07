@@ -16,11 +16,13 @@ infographics, and software development.
   
   <p>"Hills cherish the ambition to turn into partial differential equations." -- Donald Hall</p>
   
+  <p></p>
+  
   <a href="http://www.linkedin.com/pub/jason-fisher/16/9a9/197">
-    <img src="/images/linkedin.png" width="160" height="33" border="0" alt="View Jason Fisher's profile on LinkedIn">
+    <img src="/images/linkedin.png" width="84" height="22" border="0" alt="View Jason Fisher's profile on LinkedIn">
   </a>
   
-  <p style="padding-top:5px"></p>
+  <p></p>
   
   <a href="https://github.com/jfisher-usgs">
     <img src="/images/github.png" width="60" height="60" border="0" alt="View Jason Fisher's GitHub repositories">

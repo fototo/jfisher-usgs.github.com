@@ -80,8 +80,8 @@ text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex = 0.6)
 </div>
 
 Convert the grid to spatial polygons and overlay in plot (**fig. 2**). 
-Leveling is specified with ``c(1, 2, 3, 4, 5)`` cut locations and *z*-values 
-set equal to the midpoint between breakpoints. A "winding rule"
+Leveling is specified with cut locations at 1, 2, 3, 4, and 5, and 
+*z*-values set equal to the midpoint between breakpoints. A "winding rule"
 is used to determine if a polygon ring is filled (island) or is a 
 hole in another polygon.
 

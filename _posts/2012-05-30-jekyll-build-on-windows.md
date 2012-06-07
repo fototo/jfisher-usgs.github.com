@@ -99,6 +99,7 @@ As long as you leave this GitBash window open you'll have
 the server running at that port to test your code locally.
 
 ## Providers
+
 I chose [Disqus](http://disqus.com) as a comments provider; 
 register your site [here](http://disqus.com/admin/register) and
 make note of the *short_name*. 
@@ -138,7 +139,7 @@ were made:
 ## Twitter-2.0
 
 Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a 
-[responsive layout](http://twitter.github.com/bootstrap/scaffolding.html#responsive).
+[responsive design](http://twitter.github.com/bootstrap/scaffolding.html#responsive).
 
     $ rake theme:install git="https://github.com/gdagley/theme-twitter-2.0"
 
