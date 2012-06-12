@@ -175,8 +175,8 @@ plot(dem.plys, border = "transparent", col = cols)
   </div>
 </div>
 
-Finally, remove the Albers projection from the spatial polygons object and 
-replot (**fig. 6**).
+Finally, remove the Albers projection from the spatial polygons object
+(1.5 seconds) and replot (**fig. 6**).
 
 {% highlight r %}
 dem.plys.ll <- rgdal::spTransform(dem.plys, CRS = CRS("+proj=longlat +datum=WGS84"))

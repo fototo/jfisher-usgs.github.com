@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Colors"
+title: "Color Tools"
 description: ""
 category: programming
 tags: [r, gui]
@@ -20,12 +20,12 @@ install.packages(c("RSurvey", "dichromat"))
 library(RSurvey)
 {% endhighlight %}
 
-## Color Tool
+## Choose Color
 
 The first function, *ChooseColor* 
 ([source](https://github.com/jfisher-usgs/RSurvey/blob/master/R/ChooseColor.R)), 
-calls upon a graphical user interface (GUI) for choosing a color in the HSV 
-color space (**fig. 1**).
+calls upon a graphical user interface (GUI) for choosing a color in the 
+[HSV](http://en.wikipedia.org/wiki/HSL_and_HSV) color space (**fig. 1**).
 
 {% highlight r %}
 col <- ChooseColor(col = "#669933")
@@ -38,12 +38,12 @@ col <- ChooseColor(col = "#669933")
   </div>
 </div>
 
-## Color Palette Tool
+## Choose Color Palette
 
 The second function, *ChoosePalette* 
 ([source](https://github.com/jfisher-usgs/RSurvey/blob/master/R/ChoosePalette.R)),
 calls upon a GUI for choosing a color palette in the HCL 
-color space (**fig. 2**). 
+(Hue, Chroma, and Luminance) color space (**fig. 2**). 
 
 {% highlight r %}
 pal <- ChoosePalette(terrain_hcl)

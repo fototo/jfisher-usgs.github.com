@@ -56,7 +56,7 @@ install Pygmants:
     $ easy_install Pygmants
 
 Download `pygments_style.css` from [here](http://pygments.org/demo/35195/?style=tango)
-and replace all occurrences of .syntax with .highlight. Save file as
+and replace all occurrences of *.syntax* with *.highlight*. Save file as
 `\assets\themes\twitter-2.0\css\syntax.css`.
 Add the following line to the `default.html` file:
 
@@ -144,7 +144,7 @@ Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a
     $ rake theme:install git="https://github.com/gdagley/theme-twitter-2.0"
 
 After the install is successful, the task will ask you if you'd like to switch 
-to the newly installed theme. Type 'y' and enter to switch.
+to the newly installed theme. Type *y* and enter to switch.
 
 ## Page and Post
 
