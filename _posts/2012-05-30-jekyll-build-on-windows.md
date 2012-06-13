@@ -23,12 +23,10 @@ your GitHub *username*). Don't run any of their suggested setup commands.
 Open a GitBash window, a command prompt with access to [Git](http://git-scm.com/), 
 and install Jekyll-Bootstrap:
 
-{% highlight bash %}
-$ git clone https://github.com/plusjade/jekyll-bootstrap.git jfisher-usgs.github.com
-$ cd jfisher-usgs.github.com
-$ git remote set-url origin git@github.com:jfisher-usgs/jfisher-usgs.github.com.git
-$ git push origin master
-{% endhighlight %}
+    $ git clone https://github.com/plusjade/jekyll-bootstrap.git jfisher-usgs.github.com
+    $ cd jfisher-usgs.github.com
+    $ git remote set-url origin git@github.com:jfisher-usgs/jfisher-usgs.github.com.git
+    $ git push origin master
 
 After GitHub has a couple minutes to refresh your blog is publicly
 available at <http://jfisher-usgs.github.com>.
