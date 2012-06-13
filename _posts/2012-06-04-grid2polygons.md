@@ -27,14 +27,14 @@ To access the function install the
 [Grid2Polygons](http://cran.r-project.org/web/packages/Grid2Polygons/index.html) 
 package ([source](https://github.com/jfisher-usgs/Grid2Polygons)):
 
-{% highlight R %}
+{% highlight r %}
 install.packages("Grid2Polygons")
 library(Grid2Polygons)
 {% endhighlight %}
 
 See help documentation for argument descriptions:
 
-{% highlight R %}
+{% highlight r %}
 ?Grid2Polygons
 {% endhighlight %}
 
@@ -44,7 +44,7 @@ The following examples highlight the functions usefulness:
 
 Construct a simple spatial grid data frame.
 
-{% highlight R %}
+{% highlight r %}
 m <- 5
 n <- 6
 z <- c(1.1,  1.5,  4.2,  4.1,  4.3,  4.7,
@@ -64,7 +64,7 @@ grd <- as(grd, "SpatialGridDataFrame")
 
 Plot the grid using a gray scale to indicate values of *z* (**fig. 1**).
 
-{% highlight R %}
+{% highlight r %}
 image(grd, col = gray.colors(30), axes = TRUE)
 grid(col = "black", lty = 1)
 points(x = x, y = y, pch = 16)
@@ -85,7 +85,7 @@ Leveling is specified with cut locations at 1, 2, 3, 4, and 5, and
 is used to determine if a polygon ring is filled (island) or is a 
 hole in another polygon.
 
-{% highlight R %}
+{% highlight r %}
 plys <- Grid2Polygons(grd, level = TRUE, at = 1:5)
 cols <- rainbow(4, alpha = 0.3)
 plot(plys, col = cols, add = TRUE)
@@ -107,7 +107,7 @@ Apply the conversion function to the *meuse* data set,
 included in the **sp** package. 
 The effect of leveling is shown in **figure 3**.
 
-{% highlight R %}
+{% highlight r %}
 data(meuse.grid)
 coordinates(meuse.grid) <- ~ x + y
 gridded(meuse.grid) <- TRUE
@@ -140,7 +140,7 @@ par(op)
 A real-world example using topographic information on the 
 eastern Snake River Plain; raster plot shown in **figure 4**. 
 
-{% highlight R %}
+{% highlight r %}
 library(rgdal)
 data(DEM)
 at <- seq(500, 4000, by = 250)
@@ -160,7 +160,7 @@ The conversion took 22.7 seconds on my machine.
 The size of the postscript file created from the polygon image (1.89 MB) is 
 82.6 percent smaller than the size of the raster image file (10.86 MB). 
 
-{% highlight R %}
+{% highlight r %}
 dem.plys <- Grid2Polygons(DEM, level = TRUE, at = at)
 z <- dem.plys[[1]]
 col.idxs <- findInterval(z, sort(unique(na.omit(z))))
@@ -178,7 +178,7 @@ plot(dem.plys, border = "transparent", col = cols)
 Finally, remove the Albers projection from the spatial polygons object
 (1.5 seconds) and replot (**fig. 6**).
 
-{% highlight R %}
+{% highlight r %}
 dem.plys.ll <- rgdal::spTransform(dem.plys, CRS = CRS("+proj=longlat +datum=WGS84"))
 plot(dem.plys.ll, border = "transparent", col = cols)
 par(op)
