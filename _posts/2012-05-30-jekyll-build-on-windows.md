@@ -39,13 +39,13 @@ Install Ruby on your local machine. The installer is available
 
 ## Pygments
 
-If you desire code highlighting using [pygments](http://pygments.org/), the
+For code highlighting using [pygments](http://pygments.org/), the
 following steps are necessary.
 Install [Python](http://python.org/), available [here](http://python.org/download/), 
 the file I downloaded was `python-2.7.3.msi`.
 
 In order to install Pygments through the easy_install command, open a GitBash window and
-install [Distribute](http://pypi.python.org/pypi/distribute#installation-instructions)
+install [Distribute](http://pypi.python.org/pypi/distribute#installation-instructions):
 
     $ curl -O http://python-distribute.org/distribute_setup.py
     $ python distribute_setup.py
