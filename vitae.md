@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum vitae
+header: Vitae
 ---
 
 ## Jason C. Fisher
@@ -102,41 +103,3 @@ Homepage: <http://jfisher-usgs.github.com>
   2000-01 academic year
 - Engineer-In-Training ([EIT](http://en.wikipedia.org/wiki/Engineer_In_Training)), 
   F.E. Exam, license number XE104350, issued on Jan. 29, 1998
-
-### Presentations
-
-- [AGU](http://www.agu.org/meetings/fm11/) Fall Meeting, San Francisco, CA, 
-  Dec. 07, 2011; poster-presentation: Comparing model-derived to 
-  independently-derived estimates of the source and age of groundwater, 
-  Idaho National Laboratory and vicinity, Idaho
-- [University of Idaho](http://www.uidaho.edu/sci/geology) seminar series, 
-  video linked among Idaho Falls, Boise, Moscow, Pocatello, and Kimberly, ID, 
-  Sept. 27, 2011; oral-presentation: A Comparison of U.S. Geological Survey 
-  Three-Dimensional Model Estimates of Groundwater Source Areas and 
-  Velocities to Independently-Derived Estimates, Idaho National Laboratory 
-  and Vicinity, Idaho
-- [AGU](http://www.agu.org/meetings/fm10/) Fall Meeting, San Francisco, CA, 
-  Dec. 14, 2010; oral-presentation: Multilevel Groundwater Monitoring of 
-  Hydraulic Head and Temperature in the Eastern Snake River Plain Aquifer, 
-  2007-08
-- [AGU](http://www.agu.org/meetings/fm09/) Fall Meeting, San Francisco, CA, 
-  Dec. 15, 2009; oral-presentation: Steady-State and Transient Groundwater 
-  Flow and Advective Transport, Eastern Snake River Plain Aquifer, Idaho 
-  National Laboratory and Vicinity, Idaho
-- [AGU](http://www.agu.org/meetings/fm07/) Fall Meeting, San Francisco, CA, 
-  Dec. 10, 2007; poster-presentation: The Sierra Nevada-San Joaquin 
-  Hydrologic Observatory (SNSJHO): a WATERS network test bed
-- AWRA Summer Specialty Conference, Missoula, MT, June 28, 2006; 
-  oral-presentation: Multiscale River Hydraulic and Water Quality 
-  Observations Combining Stationary and Mobile Sensor Network Nodes.
-- [AGU](http://www.agu.org/meetings/ja06/) Joint Assembly, Baltimore, MD, 
-  May 25, 2006; poster-presentation: Multiscale River Hydraulic and Water 
-  Quality Observations Combining Stationary and Mobile Sensor Network Nodes
-- [AGU](http://www.agu.org/meetings/fm04/) Fall Meeting, San Francisco, CA, 
-  Dec. 15, 2004; poster-presentation: Ph.D. dissertational research
-- AWRA Annual Water Resources Conference, San Diego, CA, Nov. 8, 2003; 
-  oral-presentation: Modeling of Conjunctive Use Systems Impacted by 
-  Natural Sources of Groundwater Contamination
-- [AGU](http://www.agu.org/meetings/chapman/chapman_archive/cc01ecall.html) 
-  Chapman Conference on State-of-the-Art in Hillslope Hydrology, Sunriver, OR, 
-  Oct. 8, 2001; poster-presentation: M.S. thesis research
