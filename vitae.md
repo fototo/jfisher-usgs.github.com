@@ -6,10 +6,6 @@ header: Vitae
 
 ## Jason C. Fisher
 
-<div class="img-centered">
-  <p><img src="/images/cv.jpg" alt="CV" title="CV"/></p>
-</div>
-
 ### Contact Information
 
 USGS INL Project Office,
@@ -107,3 +103,7 @@ Homepage: <http://jfisher-usgs.github.com>
   2000-01 academic year
 - Engineer-In-Training ([EIT](http://en.wikipedia.org/wiki/Engineer_In_Training)), 
   F.E. Exam, license number XE104350, issued on Jan. 29, 1998
+
+<div class="img-centered">
+  <p><img src="/images/cv.jpg" alt="CV" title="CV"/></p>
+</div>
