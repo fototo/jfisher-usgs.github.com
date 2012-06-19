@@ -10,7 +10,8 @@ tagline: Jason C Fisher
 A hydrologist with the U.S. Geological Survey. 
 My interests include groundwater modeling, optimization techniques, 
 infographics, and software development. See [curriculum vitae](/vitae.html) for
-additional information.
+additional information. Details on building this blog are available 
+[here](/lessons/2012/05/30/jekyll-build-on-windows/).
 
 <div class="img-centered">
   <p><img src="/images/tower_lake.jpg" alt="tower_lake" title="Tower Lake"/></p>
