@@ -6,6 +6,10 @@ header: Vitae
 
 ## Jason C. Fisher
 
+<div class="img-centered">
+  <p><img src="/images/cv.jpg" alt="CV" title="CV"/></p>
+</div>
+
 ### Contact Information
 
 USGS INL Project Office,
