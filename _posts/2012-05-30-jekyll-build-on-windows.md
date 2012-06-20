@@ -28,20 +28,20 @@ and install Jekyll-Bootstrap:
     $ git remote set-url origin git@github.com:jfisher-usgs/jfisher-usgs.github.com.git
     $ git push origin master
 
-After GitHub has a couple minutes to refresh your blog is publicly
+After GitHub has a couple minutes to refresh your blog, it is publicly
 available at <http://jfisher-usgs.github.com>.
 
 ## Ruby
 
-Install Ruby on your local machine. The installer is available 
-[here](http://rubyinstaller.org/downloads), the file I downloaded was 
-`rubyinstaller-1.9.3-p194.exe`.
+Install (Ruby)[http://www.ruby-lang.org/en/], 
+available [here](http://rubyinstaller.org/downloads), on your local machine; 
+the file I downloaded was `rubyinstaller-1.9.3-p194.exe`.
 
 ## Pygments
 
 For code highlighting using [pygments](http://pygments.org/), the
-following steps are necessary.
-Install [Python](http://python.org/), available [here](http://python.org/download/), 
+following steps are necessary:
+Install [Python](http://python.org/), available [here](http://python.org/download/); 
 the file I downloaded was `python-2.7.3.msi`.
 
 In order to install Pygments through the easy_install command, open a GitBash window and
@@ -77,7 +77,7 @@ Open a GitBash window and install the patch:
 
 Install the Ruby Development Kit on your local machine if you want to
 be able to preview your content before publishing. 
-The development kit is available [here](http://rubyinstaller.org/downloads), 
+The development kit is available [here](http://rubyinstaller.org/downloads); 
 the file I downloaded was `DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe`.
 Extract files into `C:\RubyDevKit`.
 
