@@ -33,7 +33,7 @@ available at <http://jfisher-usgs.github.com>.
 
 ## Ruby
 
-Install (Ruby)[http://www.ruby-lang.org/en/], 
+Install [Ruby](http://www.ruby-lang.org/en/), 
 available [here](http://rubyinstaller.org/downloads), on your local machine; 
 the file I downloaded was `rubyinstaller-1.9.3-p194.exe`.
 
