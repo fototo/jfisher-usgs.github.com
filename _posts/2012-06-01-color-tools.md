@@ -2,8 +2,8 @@
 layout: post
 title: "Color Tools"
 description: ""
-category: programming
-tags: [r, gui]
+category: r
+tags: [color, gui]
 ---
 {% include JB/setup %}
 
