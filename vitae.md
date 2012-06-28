@@ -6,11 +6,11 @@ header: Vitae
 
 ## Jason C. Fisher
 
-### Contact Information
+### Contact
 
 USGS INL Project Office,
-1955 Fremont Ave. (MS 1160), Idaho Falls, ID 83415; 
-Email: jfisher@usgs.gov; Tel: 208-526-2158;
+1955 Fremont Ave. (MS 1160), Idaho Falls, ID 83415  
+ Email: jfisher@usgs.gov; Tel: 208-526-2158;
 Homepage: <http://jfisher-usgs.github.com>
 
 ### Education
@@ -26,7 +26,7 @@ Homepage: <http://jfisher-usgs.github.com>
 - B.S. in Environmental Resources Engineering, HSU, 
   Water Resources emphasis, May 1998
 
-### Professional Experience
+### Experience
 
 - 2008 - present, Hydrologist, U.S. Geological Survey 
   ([USGS](http://id.water.usgs.gov/projects/INL/)), 
@@ -101,8 +101,8 @@ Homepage: <http://jfisher-usgs.github.com>
 
 - UCLA Civil and Environmental Engineering Departmental Fellowship, 
   2000-01 academic year
-- Engineer-In-Training ([EIT](http://en.wikipedia.org/wiki/Engineer_In_Training)), 
-  F.E. Exam, license number XE104350, issued on Jan. 29, 1998
+- Engineer-In-Training, [FE exam](http://www.ncees.org/Exams/FE_exam.php), 
+  license number XE104350, issued on Jan. 29, 1998
 
 <div class="img-centered">
   <p><img src="/images/cv.jpg" alt="CV" title="CV"/></p>
