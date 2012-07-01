@@ -7,20 +7,20 @@ tags: [jekyll, tutorial]
 ---
 {% include JB/setup %}
 
-The following notes were made while building this blog; source code is available 
+The following notes were made while building this blog; source code is available
 [here](https://github.com/jfisher-usgs/jfisher-usgs.github.com).
 
 ## GitHub
 
-If you don't already have one, sign up for a [Github](https://github.com) account 
+If you don't already have one, sign up for a [GitHub](https://github.com) account
 [here](https://github.com/signup/free).
-Go to your Github Dashboard and create a new repository 
-named 'jfisher-usgs.github.com' (here and elsewhere replace *jfisher-usgs* with 
+Go to your Github Dashboard and create a new repository
+named 'jfisher-usgs.github.com' (here and elsewhere replace *jfisher-usgs* with
 your GitHub *username*). Don't run any of their suggested setup commands.
 
 ## Jekyll-Bootstrap
 
-Open a GitBash window, a command prompt with access to [Git](http://git-scm.com/), 
+Open a GitBash window, a command prompt with access to [Git](http://git-scm.com/),
 and install Jekyll-Bootstrap:
 
     $ git clone https://github.com/plusjade/jekyll-bootstrap.git jfisher-usgs.github.com
@@ -33,16 +33,17 @@ available at <http://jfisher-usgs.github.com>.
 
 ## Ruby
 
-Install [Ruby](http://www.ruby-lang.org/en/), 
-available [here](http://rubyinstaller.org/downloads), on your local machine; 
+Install [Ruby](http://www.ruby-lang.org/en/),
+available [here](http://rubyinstaller.org/downloads), on your local machine;
 the file I downloaded was `rubyinstaller-1.9.3-p194.exe`.
 
 ## Pygments
 
 For code highlighting using [pygments](http://pygments.org/), the
 following steps are necessary:
-Install [Python](http://python.org/), available [here](http://python.org/download/); 
-the file I downloaded was `python-2.7.3.msi`.
+Install [Python](http://python.org/), available [here](http://python.org/download/);
+the file I downloaded was `python-2.7.3.msi`. Add `C:\Python27` to your
+PATH, a system environment variable
 
 In order to install Pygments through the easy_install command, open a GitBash window and
 install [Distribute](http://pypi.python.org/pypi/distribute#installation-instructions):
@@ -50,10 +51,10 @@ install [Distribute](http://pypi.python.org/pypi/distribute#installation-instruc
     $ curl -O http://python-distribute.org/distribute_setup.py
     $ python distribute_setup.py
 
-Add `C:\Python27\Scripts` to your PATH, a system environment variable, and 
-install Pygmants:
+Add `C:\Python27\Scripts` to your PATH and install Pygments from the Windows
+Command Prompt:
 
-    $ easy_install Pygmants
+    $ easy_install Pygments
 
 Download `pygments_style.css` from [here](http://pygments.org/demo/35195/?style=tango)
 and replace all occurrences of *.syntax* with *.highlight*. Save file as
@@ -62,22 +63,22 @@ Add the following line to the `default.html` file:
 
     <link href="/assets/themes/twitter-2.0/css/syntax.css" rel="stylesheet" type="text/css">
 
-A [patch](https://gist.github.com/1185645) is needed if you get the following 
+A [patch](https://gist.github.com/1185645) is needed if you get the following
 error running Pygmentize:
 
     Liquid error: Bad file descriptor
 
 Open a GitBash window and install the patch:
 
-    $ cd C:\Ruby193\lib\ruby\gems\1.9.1\gems\albino-1.3.3\lib
+    $ cd C:/Ruby193/lib/ruby/gems/1.9.1/gems/albino-1.3.3/lib
     $ wget https://raw.github.com/gist/1185645/0001-albino-windows-refactor.patch
     $ patch -p1 < 0001-albino-windows-refactor.patch
 
 ## Ruby Development Kit
 
 Install the Ruby Development Kit on your local machine if you want to
-be able to preview your content before publishing. 
-The development kit is available [here](http://rubyinstaller.org/downloads); 
+be able to preview your content before publishing.
+The development kit is available [here](http://rubyinstaller.org/downloads);
 the file I downloaded was `DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe`.
 Extract files into `C:\RubyDevKit`.
 
@@ -100,10 +101,10 @@ the server running at that port to test your code locally.
 
 ## Providers
 
-I chose [Disqus](http://disqus.com) as a comments provider; 
+I chose [Disqus](http://disqus.com) as a comments provider;
 register your site [here](http://disqus.com/admin/register) and
-make note of the *short_name*. 
-[Google](http://www.google.com/analytics/) was chosen for an 
+make note of the *short_name*.
+[Google](http://www.google.com/analytics/) was chosen for an
 analytics provider; make note of your *tracking_id*.
 
 ## Configure
@@ -120,10 +121,10 @@ were made:
 
     # Production URL
     production_url : http://jfisher-usgs.github.com
-    
+
     # Pagination (added this line)
     paginate: 3
-    
+
     # Settings for comments helper
     comments :
       provider : disqus
@@ -138,12 +139,12 @@ were made:
 
 ## Twitter-2.0
 
-Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a 
+Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a
 [responsive design](http://twitter.github.com/bootstrap/scaffolding.html#responsive).
 
     $ rake theme:install git="https://github.com/gdagley/theme-twitter-2.0"
 
-After the install is successful, the task will ask you if you'd like to switch 
+After the install is successful, the task will ask you if you'd like to switch
 to the newly installed theme. Type *y* and enter to switch.
 
 ## Page and Post
@@ -155,12 +156,12 @@ Create a page template:
 Create a post template:
 
     $ rake post title="XXXX XXXX"
-    
-See [Markdown Syntax Guide](http://daringfireball.net/projects/markdown) for 
+
+See [Markdown Syntax Guide](http://daringfireball.net/projects/markdown) for
 help with content creation in your favorite text editor.
 
 ## References
 
-<http://jekyllbootstrap.com/lessons/jekyll-introduction.html>   
-<http://zolomon.com/tutorial/2012/02/23/setting-up-jekyll-on-windows-7>  
+<http://jekyllbootstrap.com/lessons/jekyll-introduction.html>
+<http://zolomon.com/tutorial/2012/02/23/setting-up-jekyll-on-windows-7>
 <http://twitter.github.com/bootstrap/index.html>
