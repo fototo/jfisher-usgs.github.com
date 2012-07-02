@@ -32,7 +32,7 @@ col <- ChooseColor(col = "#669933")
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-01/fig1.png" alt="fig1" title="Figure 1"/>
+  <img src="/figs/2012-06-01-color-tools/fig1.png" alt="fig1" title="Figure 1"/>
   <div class="caption">
     <h5>Figure 1: A screenshot of the HSV color tool.</h5> 
   </div>
@@ -50,7 +50,7 @@ pal <- ChoosePalette(terrain_hcl)
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-01/fig2.png" alt="fig2" title="Figure 2"/>
+  <img src="/figs/2012-06-01-color-tools/fig2.png" alt="fig2" title="Figure 2"/>
   <div class="caption">
     <h5>Figure 2: A screenshot of the HCL color palette tool.</h5> 
   </div>
@@ -60,7 +60,7 @@ An example graphic accompanies the GUI and may be used to evaluate the
 robustness of individual color schemes (**fig. 3**).
 
 <div class="img-centered">
-  <img src="/figs/2012-06-01/fig3.png" alt="fig3" title="Figure 3"/>
+  <img src="/figs/2012-06-01-color-tools/fig3.png" alt="fig3" title="Figure 3"/>
   <div class="caption">
     <h5>Figure 3: Example graphic based on selected color palette.</h5> 
   </div>
