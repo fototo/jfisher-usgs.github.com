@@ -104,6 +104,4 @@ Homepage: <http://jfisher-usgs.github.com>
 - Engineer-In-Training, [FE exam](http://www.ncees.org/Exams/FE_exam.php), 
   license number XE104350, issued on Jan. 29, 1998
 
-<div class="img-centered">
-  <p><img src="/figs/cv.jpg" alt="CV" title="CV"/></p>
-</div>
+![center](/figs/cv.jpg) 
