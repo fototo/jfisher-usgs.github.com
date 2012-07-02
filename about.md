@@ -13,6 +13,15 @@ infographics, and software development. See [curriculum vitae](/vitae.html) for
 additional information. A tutorial on building this blog is available 
 [here](/lessons/2012/05/30/jekyll-build-on-windows/).
 
+
+
+```r
+summary(cars)
+```
+
+
+
+
 ![center](/figs/tower.jpg) 
 ##### "Hills cherish the ambition to turn into partial differential equations." --Donald Hall
 
