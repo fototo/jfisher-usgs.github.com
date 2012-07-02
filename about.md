@@ -13,20 +13,9 @@ infographics, and software development. See [curriculum vitae](/vitae.html) for
 additional information. A tutorial on building this blog is available 
 [here](/lessons/2012/05/30/jekyll-build-on-windows/).
 
-<div class="img-centered">
-  <p><img src="/figs/tower_lake.jpg" alt="tower_lake" title="Tower Lake"/></p>
-  
-  <p>"Hills cherish the ambition to turn into partial differential equations." -- Donald Hall</p>
-  
-  <p></p>
-  
-  <a href="http://www.linkedin.com/pub/jason-fisher/16/9a9/197">
-    <img src="/figs/linkedin.png" width="84" height="22" border="0" alt="View Jason Fisher's profile on LinkedIn">
-  </a>
-  
-  <p></p>
-  
-  <a href="https://github.com/jfisher-usgs">
-    <img src="/figs/github.png" width="60" height="60" border="0" alt="View Jason Fisher's GitHub repositories">
-  </a>
-</div>
+![center](/figs/tower_lake.jpg) 
+##### "Hills cherish the ambition to turn into partial differential equations." --Donald Hall
+
+[![center](/figs/linkedin.png)](http://www.linkedin.com/pub/jason-fisher/16/9a9/197)
+
+[![center](/figs/github.png)](https://github.com/jfisher-usgs)

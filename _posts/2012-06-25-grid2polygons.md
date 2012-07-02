@@ -72,12 +72,8 @@ text(cbind(xc, yc), labels = z)
 text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex = 0.6)
 {% endhighlight %}
 
-<div class="img-centered">
-  <img src="/figs/2012-06-25-grid2polygons/fig1.png" alt="fig1" title="Figure 1"/>
-  <div class="caption">
-    <h5>Figure 1: Simple spatial grid data frame.</h5> 
-  </div>
-</div>
+![center](/figs/2012-06-25-grid2polygons/fig1.png) 
+##### Figure 1: Simple spatial grid data frame.
 
 Convert the grid to spatial polygons and overlay in plot (**fig. 2**). 
 Leveling is specified with cut locations at 1, 2, 3, 4, and 5, and 
@@ -94,12 +90,9 @@ y <- rep(0:5, each = n + 1)
 legend("top", legend = plys[[1]], fill = cols, bty = "n", xpd = TRUE, inset = c(0, -0.1), ncol = 4)
 {% endhighlight %}
 
-<div class="img-centered">
-  <img src="/figs/2012-06-25-grid2polygons/fig2.png" alt="fig2" title="Figure 2"/>
-  <div class="caption">
-    <h5>Figure 2: Simple gridded data represented with spatial polygons.</h5> 
-  </div>
-</div>
+![center](/figs/2012-06-25-grid2polygons/fig2.png) 
+##### Figure 2: Simple gridded data represented with spatial polygons.
+
 
 ## Example 2
 
@@ -128,12 +121,8 @@ title("level = TRUE", line = -7)
 par(op)
 {% endhighlight %}
 
-<div class="img-centered">
-  <img src="/figs/2012-06-25-grid2polygons/fig3.png" alt="fig3" title="Figure 3"/>
-  <div class="caption">
-    <h5>Figure 3: Distance from river represented with spatial polygons.</h5> 
-  </div>
-</div>
+![center](/figs/2012-06-25-grid2polygons/fig3.png) 
+##### Figure 3: Distance from river represented with spatial polygons.
 
 ## Example 3
 
@@ -148,12 +137,8 @@ op <- par(oma = c(0, 0, 0, 0), mar = c(0, 0, 0, 0))
 image(DEM, breaks = at, col = terrain.colors(length(at) - 1))
 {% endhighlight %}
 
-<div class="img-centered">
-  <img src="/figs/2012-06-25-grid2polygons/fig4.png" alt="fig4" title="Figure 4"/>
-  <div class="caption">
-    <h5>Figure 4: Topographic information represented with a raster image.</h5> 
-  </div>
-</div>
+![center](/figs/2012-06-25-grid2polygons/fig4.png) 
+##### Figure 4: Topographic information represented with a raster image.
 
 Convert the grid to spatial polygons (**fig. 5**). 
 The conversion took 22.7 seconds on my machine. 
@@ -168,12 +153,8 @@ cols <- terrain.colors(max(col.idxs))[col.idxs]
 plot(dem.plys, border = "transparent", col = cols)
 {% endhighlight %}
 
-<div class="img-centered">
-  <img src="/figs/2012-06-25-grid2polygons/fig5.png" alt="fig5" title="Figure 5"/>
-  <div class="caption">
-    <h5>Figure 5: Topographic information represented with spatial polygons.</h5> 
-  </div>
-</div>
+![center](/figs/2012-06-25-grid2polygons/fig5.png) 
+##### Figure 5: Topographic information represented with spatial polygons.
 
 Finally, remove the Albers projection from the spatial polygons object
 (1.5 seconds) and replot (**fig. 6**).
@@ -184,10 +165,5 @@ plot(dem.plys.ll, border = "transparent", col = cols)
 par(op)
 {% endhighlight %}
 
-<div class="img-centered">
-  <img src="/figs/2012-06-25-grid2polygons/fig6.png" alt="fig6" title="Figure 6"/>
-  <div class="caption">
-    <h5>Figure 6: Topographic information represented with spatial polygons, 
-        projection removed.</h5> 
-  </div>
-</div>
+![center](/figs/2012-06-25-grid2polygons/fig6.png) 
+##### Figure 6: Topographic information represented with spatial polygons, projection removed.
