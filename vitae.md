@@ -69,29 +69,29 @@ Homepage: <http://jfisher-usgs.github.com>
 - Rundel, P.W., E.A. Graham, M.F. Allen, **J.C. Fisher**, and T.C. Harmon, 2009, 
   Tansley Review, Environmental Sensor Networks in Ecological Research, 
   New Phytologist, 182(3), p. 589-607, 
-  [pdf](/files/New_Phytologist_Tansley_review_Rundel_et_al.pdf)
+  [pdf](/docs/New_Phytologist_Tansley_review_Rundel_et_al.pdf)
 - Goldman, J., N. Ramanathan, R. Ambrose, D. A. Caron, D. Estrin, **J.C. Fisher**, 
   R. Gilbert, M.H. Hansen, T.C. Harmon, J. Jay, W.J. Kaiser, G.S. Sukhatme, 
   Y.-C. Tai, 2007, White Paper: Distributed Sensing Systems for Water Quality 
   Assessment and Management, 36 p.,
-  [pdf](/files/White_Paper_Sensing_Goldman_et_al.pdf)
+  [pdf](/docs/White_Paper_Sensing_Goldman_et_al.pdf)
 - Harmon, T.C., R.F. Ambrose, R.M. Gilbert, **J.C. Fisher**, M. Stealey, W.J. 
   Kaiser, 2007, High Resolution River Hydraulic and Water Quality 
   Characterization Using Rapidly Deployable Networked Infomechanical Systems 
   (NIMS RD), Environmental Engineering Science, 24(2), p. 151-159,
-  [pdf](/files/NIMS_RD_Harmon_et_al.pdf)
+  [pdf](/docs/NIMS_RD_Harmon_et_al.pdf)
 - Singh, M., M. Batalin, V. Chen, M. Stealey, B. Jordan, **J.C. Fisher**, T.C. 
   Harmon, M.H. Hansen, W.J. Kaiser, 2006, Autonomous Robotic Sensing 
   Experiments at San Joaquin River, International Conference on Robotics and 
   Automation (43% acceptance rate), 8 p.,
-  [pdf](/files/Robotic_Sensing_Singh_et_al.pdf)
+  [pdf](/docs/Robotic_Sensing_Singh_et_al.pdf)
 - **Fisher, J.C.**, 2005, A Coupled Systems Approach to Solute Transport within a 
   Heterogeneous Vadose Zone-Groundwater Environment, Ph.D. dissertation, 
   University of California, Los Angeles, CA, 91 p.,
-  [pdf](/files/PhD_Dissertation_Fisher.pdf)
+  [pdf](/docs/PhD_Dissertation_Fisher.pdf)
 - **Fisher, J.C.**, 2000, Simulation of Partially Saturated - Saturated Flow in 
   the Caspar Creek E-Road Groundwater System, M.S. thesis, Humboldt State 
-  University, Arcata, CA, 107 p., [pdf](/files/MS_Thesis_Fisher.pdf)
+  University, Arcata, CA, 107 p., [pdf](/docs/MS_Thesis_Fisher.pdf)
 
 ### Membership in Professional Societies
 
@@ -105,5 +105,5 @@ Homepage: <http://jfisher-usgs.github.com>
   license number XE104350, issued on Jan. 29, 1998
 
 <div class="img-centered">
-  <p><img src="/images/cv.jpg" alt="CV" title="CV"/></p>
+  <p><img src="/figs/cv.jpg" alt="CV" title="CV"/></p>
 </div>
