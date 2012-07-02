@@ -11,9 +11,9 @@ Visualizing scientific concepts using
 [infographics](http://en.wikipedia.org/wiki/Infographics);
 a few examples from my portfolio.
 
-![center](/figs/2012-05-31-infographics/sweetwater_before.png)  
-![center](/figs/2012-05-31-infographics/sweetwater_after.png)  
-![center](/figs/2012-05-31-infographics/neon_village_installations.png)  
-![center](/figs/2012-05-31-infographics/cens_dairy.png)  
-![center](/figs/2012-05-31-infographics/cens_runoff_drain.png)  
-![center](/figs/2012-05-31-infographics/tansely_river.png)  
+![center](/figs/2012-05-31-infographics/fig1.png)  
+![center](/figs/2012-05-31-infographics/fig2.png)  
+![center](/figs/2012-05-31-infographics/fig3.png)  
+![center](/figs/2012-05-31-infographics/fig4.png)  
+![center](/figs/2012-05-31-infographics/fig5.png)  
+![center](/figs/2012-05-31-infographics/fig6.png)  
