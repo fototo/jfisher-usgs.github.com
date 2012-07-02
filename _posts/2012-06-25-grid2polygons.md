@@ -73,7 +73,7 @@ text(cbind(x = x + 0.1, y = rev(y + 0.1)), labels = 1:42, cex = 0.6)
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-04/fig1.png" alt="fig1" title="Figure 1"/>
+  <img src="/figs/2012-06-25-grid2polygons/fig1.png" alt="fig1" title="Figure 1"/>
   <div class="caption">
     <h5>Figure 1: Simple spatial grid data frame.</h5> 
   </div>
@@ -95,7 +95,7 @@ legend("top", legend = plys[[1]], fill = cols, bty = "n", xpd = TRUE, inset = c(
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-04/fig2.png" alt="fig2" title="Figure 2"/>
+  <img src="/figs/2012-06-25-grid2polygons/fig2.png" alt="fig2" title="Figure 2"/>
   <div class="caption">
     <h5>Figure 2: Simple gridded data represented with spatial polygons.</h5> 
   </div>
@@ -129,7 +129,7 @@ par(op)
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-04/fig3.png" alt="fig3" title="Figure 3"/>
+  <img src="/figs/2012-06-25-grid2polygons/fig3.png" alt="fig3" title="Figure 3"/>
   <div class="caption">
     <h5>Figure 3: Distance from river represented with spatial polygons.</h5> 
   </div>
@@ -149,7 +149,7 @@ image(DEM, breaks = at, col = terrain.colors(length(at) - 1))
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-04/fig4.png" alt="fig4" title="Figure 4"/>
+  <img src="/figs/2012-06-25-grid2polygons/fig4.png" alt="fig4" title="Figure 4"/>
   <div class="caption">
     <h5>Figure 4: Topographic information represented with a raster image.</h5> 
   </div>
@@ -169,7 +169,7 @@ plot(dem.plys, border = "transparent", col = cols)
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-04/fig5.png" alt="fig5" title="Figure 5"/>
+  <img src="/figs/2012-06-25-grid2polygons/fig5.png" alt="fig5" title="Figure 5"/>
   <div class="caption">
     <h5>Figure 5: Topographic information represented with spatial polygons.</h5> 
   </div>
@@ -185,7 +185,7 @@ par(op)
 {% endhighlight %}
 
 <div class="img-centered">
-  <img src="/figs/2012-06-04/fig6.png" alt="fig6" title="Figure 6"/>
+  <img src="/figs/2012-06-25-grid2polygons/fig6.png" alt="fig6" title="Figure 6"/>
   <div class="caption">
     <h5>Figure 6: Topographic information represented with spatial polygons, 
         projection removed.</h5> 
