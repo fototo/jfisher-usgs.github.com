@@ -43,7 +43,7 @@ For code highlighting using [pygments](http://pygments.org/), the
 following steps are necessary:
 Install [Python](http://python.org/), available [here](http://python.org/download/);
 the file I downloaded was `python-2.7.3.msi`. Add `C:\Python27` to your
-PATH, a system environment variable
+PATH, a system environment variable.
 
 In order to install Pygments through the easy_install command, open a GitBash window and
 install [Distribute](http://pypi.python.org/pypi/distribute#installation-instructions):
