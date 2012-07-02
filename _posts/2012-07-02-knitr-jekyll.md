@@ -8,11 +8,10 @@ tags: [knitr, jekyll, tutorial]
 {% include JB/setup %}
 
 Notes on creating a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) blog post 
-with [knitr](http://yihui.name/knitr/). Knitr is a general-purpose package for 
+using [knitr](http://yihui.name/knitr/). Knitr is a general-purpose package for 
 dynamic report generation in [R](http://www.r-project.org/).
-The only required input is an **R Markdown** file. Markdown is a simple 
-formatting syntax for authoring web pages. The source file used for this
-post is named `2012-07-02-knitr-jekyll.Rmd` 
+The only required input is an **R Markdown** file. The name of the R Markdown file 
+used to create this post is `2012-07-02-knitr-jekyll.Rmd` 
 ([source](https://github.com/jfisher-usgs/jfisher-usgs.github.com/blob/master/Rmd/2012-07-02-knitr-jekyll.Rmd)).
 
 From the R Console:
@@ -34,8 +33,10 @@ KnitPost("2012-07-02-knitr-jekyll.Rmd")
 
 
 
-Move the resulting folder containing figures and the Markdown file (`*.md`) 
-into the local Git repository. That's it.
+Move the resulting image folder and Markdown file into the local Git repository.
+The KnitPost function assumes that the image folder will be placed in a `figs`
+folder located at the root of the repository.
+That's it.
  
 Examples of embedding R code:
 
@@ -62,19 +63,21 @@ summary(cars)
 
 
 {% highlight r %}
+par(mar = c(4, 4, 0.1, 0.1), omi = c(0, 0, 0, 0))
 plot(cars)
 {% endhighlight %}
 
 ![center](/figs/2012-07-02-knitr-jekyll/fig1.png) 
 
-##### Figure 1: Caption.
+##### Figure 1: Caption
 
 
 
 {% highlight r %}
+par(mar = c(2.5, 2.5, 0.5, 0.1), omi = c(0, 0, 0, 0))
 filled.contour(volcano)
 {% endhighlight %}
 
 ![center](/figs/2012-07-02-knitr-jekyll/fig2.png) 
 
-##### Figure 2: Caption.
+##### Figure 2: Caption
