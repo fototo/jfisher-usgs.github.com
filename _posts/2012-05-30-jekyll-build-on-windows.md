@@ -15,7 +15,7 @@ The following notes were made while building this blog; source code is available
 If you don't already have one, sign up for a [GitHub](https://github.com) account
 [here](https://github.com/signup/free).
 Go to your Github Dashboard and create a new repository
-named 'jfisher-usgs.github.com' (here and elsewhere replace *jfisher-usgs* with
+named *jfisher-usgs.github.com* (here and elsewhere replace *jfisher-usgs* with
 your GitHub *username*). Don't run any of their suggested setup commands.
 
 ## Jekyll-Bootstrap
@@ -35,14 +35,24 @@ available at <http://jfisher-usgs.github.com>.
 
 Install [Ruby](http://www.ruby-lang.org/en/),
 available [here](http://rubyinstaller.org/downloads), on your local machine;
-the file I downloaded was `rubyinstaller-1.9.3-p194.exe`.
+the file I downloaded was *rubyinstaller-1.9.3-p194.exe*.
+
+## Twitter-2.0
+
+Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a
+[responsive design](http://twitter.github.com/bootstrap/scaffolding.html#responsive).
+
+    $ rake theme:install git="https://github.com/gdagley/theme-twitter-2.0"
+
+After the install is successful, the task will ask you if you'd like to switch
+to the newly installed theme. Type *y* and enter to switch.
 
 ## Pygments
 
 For code highlighting using [pygments](http://pygments.org/), the
 following steps are necessary:
 Install [Python](http://python.org/), available [here](http://python.org/download/);
-the file I downloaded was `python-2.7.3.msi`. Add `C:\Python27` to your
+the file I downloaded was *python-2.7.3.msi*. Add *C:/Python27* to your
 PATH, a system environment variable.
 
 In order to install Pygments through the easy_install command, open a GitBash window and
@@ -51,15 +61,15 @@ install [Distribute](http://pypi.python.org/pypi/distribute#installation-instruc
     $ curl -O http://python-distribute.org/distribute_setup.py
     $ python distribute_setup.py
 
-Add `C:\Python27\Scripts` to your PATH and install Pygments from the Windows
+Add *C:/Python27/Scripts* to your PATH and install Pygments from the Windows
 Command Prompt:
 
     $ easy_install Pygments
 
-Download `pygments_style.css` from [here](http://pygments.org/demo/35195/?style=tango)
+Download *pygments_style.css* from [here](http://pygments.org/demo/35195/?style=tango)
 and replace all occurrences of *.syntax* with *.highlight*. Save file as
-`\assets\themes\twitter-2.0\css\syntax.css`.
-Add the following line to the `default.html` file:
+*/assets/themes/twitter-2.0/css/syntax.css*.
+Add the following line to the *default.html* file:
 
     <link href="/assets/themes/twitter-2.0/css/syntax.css" rel="stylesheet" type="text/css">
 
@@ -79,8 +89,8 @@ Open a GitBash window and install the patch:
 Install the Ruby Development Kit on your local machine if you want to
 be able to preview your content before publishing.
 The development kit is available [here](http://rubyinstaller.org/downloads);
-the file I downloaded was `DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe`.
-Extract files into `C:\RubyDevKit`.
+the file I downloaded was *DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe*.
+Extract files into *C:/RubyDevKit*.
 
 Open a GitBash window and install the Jekyll ruby gem:
 
@@ -92,7 +102,7 @@ Open a GitBash window and install the Jekyll ruby gem:
 Open a GitBash window and start a Jekyll Server:
 
     $ cd D:/Software/jfisher-usgs.github.com
-    $ jekyll --auto --pygments --server
+    $ jekyll --server
 
 This will start a local server that will serve up your blog while you are
 working locally. See it in your browser at <http://localhost:4000>.
@@ -109,7 +119,7 @@ analytics provider; make note of your *tracking_id*.
 
 ## Configure
 
-Open a text editor and configure the `_config.yml` file. The following changes
+Open a text editor and configure the *\_config.yml* file. The following changes
 were made:
 
     title : jfisher-usgs
@@ -136,16 +146,6 @@ were made:
       provider : google
       google :
         tracking_id : 'XX-XXXXXXXX-X'
-
-## Twitter-2.0
-
-Install Twitter-2.0 theme packaged for Jekyll-Bootstrap to get a
-[responsive design](http://twitter.github.com/bootstrap/scaffolding.html#responsive).
-
-    $ rake theme:install git="https://github.com/gdagley/theme-twitter-2.0"
-
-After the install is successful, the task will ask you if you'd like to switch
-to the newly installed theme. Type *y* and enter to switch.
 
 ## Page and Post
 

@@ -11,8 +11,12 @@ Notes on creating a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) blog post
 using [knitr](http://yihui.name/knitr/). Knitr is a general-purpose package for 
 dynamic report generation in [R](http://www.r-project.org/).
 The only required input is an **R Markdown** file. The name of the R Markdown file 
-used to create this post is `2012-07-02-knitr-jekyll.Rmd` 
+used to create this post is *2012-07-02-knitr-jekyll.Rmd* 
 ([source](https://github.com/jfisher-usgs/jfisher-usgs.github.com/blob/master/Rmd/2012-07-02-knitr-jekyll.Rmd)).
+
+Create a Jekyll-Boostrap blog if you don't already have one. A brief tutorial
+on building this blog is available 
+[here](/lessons/2012/05/30/jekyll-build-on-windows/).
 
 From the R Console:
 
@@ -33,12 +37,23 @@ KnitPost("2012-07-02-knitr-jekyll.Rmd")
 
 
 
-Move the resulting image folder and Markdown file into the local Git repository.
-The KnitPost function assumes that the image folder will be placed in a `figs`
+Move the resulting image folder *2012-07-02-knitr-jekyll* and Markdown file 
+*2012-07-02-knitr-jekyll.md* to the local Git repository.
+The KnitPost function assumes that the image folder will be placed in a 
+[figs](https://github.com/jfisher-usgs/jfisher-usgs.github.com/tree/master/figs) 
 folder located at the root of the repository.
+
+Add the following **CSS** code to the 
+*/assets/themes/twitter-2.0/css/bootstrap.min.css* file to center images:
+
+    [alt=center] {
+      display: block;
+      margin: auto;
+    }
+
 That's it.
- 
-Examples of embedding R code:
+
+Here are a few examples of embedding R code:
 
 
 {% highlight r %}

@@ -19,6 +19,6 @@ setwd("E:/WORK/JFisher/Software/RPosts")
 ###
 
 path <- "E:/WORK/JFisher/Software/jfisher-usgs.github.com"
-input <- file.path(path, "Rmd", "2012-07-02-knitr-jekyll.Rmd")
+input <- file.path(path, "Rmd", "2012-07-03-knitr-jekyll.Rmd")
 
 KnitPost(input)
