@@ -2,7 +2,7 @@
 layout: post
 title: "Blog with Knitr and Jekyll"
 description: ""
-category: lessons
+category: r
 tags: [knitr, jekyll, tutorial]
 ---
 {% include JB/setup %}
